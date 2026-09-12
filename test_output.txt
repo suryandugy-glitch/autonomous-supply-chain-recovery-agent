@@ -1,0 +1,15 @@
+Running basic tests for Autonomous Supply Chain Recovery Agent...
+
+Traceback (most recent call last):
+  File "C:\Users\HP\supply_chain_agent\test_basic.py", line 138, in <module>
+    success = main()
+  File "C:\Users\HP\supply_chain_agent\test_basic.py", line 124, in main
+    if test():
+       ~~~~^^
+  File "C:\Users\HP\supply_chain_agent\test_basic.py", line 22, in test_imports
+    print("\u2713 All modules imported successfully")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
