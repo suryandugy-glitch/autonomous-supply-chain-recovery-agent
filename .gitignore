@@ -1,0 +1,20 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local generated runtime files
+*.log
+test_output.txt
+supply_chain_state.json
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
